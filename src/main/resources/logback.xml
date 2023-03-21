@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+<!--    <property name="HOME_LOG" value="${user.dir}/logs/org.example.log"/>-->
+<!--    <property name="HOME_LOG_ROLLING" value="${user.dir}/logs/org/newest.log"/>-->
+
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%-5level - %msg%n</pattern>
+<!--            <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36}:%line - %msg%n</pattern>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36}:%method:%line - %msg%n</pattern>-->
+        </encoder>
+    </appender>
+
+<!--    <appender name="FILE" class="ch.qos.logback.core.FileAppender">-->
+<!--        <file>${HOME_LOG}</file>-->
+<!--&lt;!&ndash;        czy treść ma być dopisywana do pliku loga&ndash;&gt;-->
+<!--        <append>false</append>-->
+<!--        <immediateFlush>true</immediateFlush>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36}:%line - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+
+<!--    <appender name="FILE-ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${HOME_LOG_ROLLING}</file>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">-->
+
+            <!--Pliki archiwalne mają być umiejscowione w katalogu `my-logs/archived`.-->
+            <!--Pliki archiwalne mają mieć nazwę, np. `rolled.{data}.{numer_porządkowy}.log`. .gz - na końcu -
+            spakuje-->
+<!--            <fileNamePattern>my-logs/archived/rolled.%d{yyyy-MM-dd}.%i.log</fileNamePattern>-->
+<!--&lt;!&ndash;          //rollowanie co sekundę{s} godzinę {H} , %i to licznik&ndash;&gt;-->
+<!--&lt;!&ndash;            <fileNamePattern>my-logs/archived/rolled.%d{s}.%i.log</fileNamePattern>&ndash;&gt;-->
+<!--            &lt;!&ndash;Pliki mają się rollować się przy rozmiarze 2MB&ndash;&gt;-->
+<!--            <maxFileSize>2MB</maxFileSize>-->
+<!--            &lt;!&ndash;Jeżeli pliki z logami przekroczą rozmiar 50MB, mamy zacząć usuwać najstarsze z nich&ndash;&gt;-->
+<!--            <totalSizeCap>50MB</totalSizeCap>-->
+<!--            &lt;!&ndash;Pliki z logami mają być przetrzymywane przez 5 dni&ndash;&gt;-->
+<!--            <maxHistory>5</maxHistory>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    <logger name="org.example.Main" level="trace" additivity="false">-->
+<!--        <appender-ref ref="FILE"/>-->
+<!--    </logger>-->
+
+<!--    <logger name="org.example.Main" level="debug" additivity="true">-->
+<!--        <appender-ref ref="FILE-ROLLING"/>-->
+<!--&lt;!&ndash;        aby logger logował do konsoli to można dodać zapis poniżej lub przestawić flagę na true&ndash;&gt;-->
+<!--&lt;!&ndash;        <appender-ref ref="CONSOLE"/>&ndash;&gt;-->
+<!--    </logger>-->
+
+    <root level="debug">
+<!--        appender będzie logował do konsoli, ale nie z pliku Main który obsługuje logger-->
+        <appender-ref ref="CONSOLE"/>
+<!--        <appender-ref ref="CONSOLE"/>-->
+<!--        <appender-ref ref="FILE"/>-->
+    </root>
+</configuration>
