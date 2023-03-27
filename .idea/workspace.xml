@@ -4,7 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="" />
+    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/AnotherSomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ExParamsCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ExParamsCoreImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ExampleBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ExampleBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ExampleSpy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ExampleSpyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/InjectedBeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/InjectedBeanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ParamsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/ParamsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/SomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/StaticClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/StaticClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/UserRegistryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/tests/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zadanie/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zadanie/UserManagementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zadanie/UserManagementRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zadanie/UserManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/ex/SomeClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tests/ExParamsCoreImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tests/ExampleBeanServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tests/ExampleSpyImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tests/StaticClass2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tests/StaticClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tests/UserRegistryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/zadanie/UserManagementServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/code/AnotherInjectedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/code/AnotherInjectedBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/code/ExBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/code/ExBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/code/InjectedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/code/InjectedBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/code/Marker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/code/Marker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/code/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/code/Prototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/code/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/code/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/annotations/configuration/ExConfigurationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/annotations/configuration/ExConfigurationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AnotherInjectedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AnotherInjectedBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExConfigurationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ExConfigurationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InjectedBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/InjectedBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/configuration/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/service/DataProcessingServ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/service/DataProcessingServ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/service/DataRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/service/DataRep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/service/MainProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/service/MainProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/project/service/StringPreparationServ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/project/service/StringPreparationServ.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +72,41 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="workshop14" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JthodoVuz7otOlj5HxlFKZ36Ny" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,10 +116,166 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/kompland/Desktop/JAVA/projects/workshop13/src/main/java/org/annotations/code"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.project.service" />
+      <recent name="org.example" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kompland\Desktop\JAVA\projects\workshop13\src\main\java\org\annotations\code" />
+      <recent name="C:\Users\kompland\Desktop\JAVA\projects\workshop8_tests\src\main\resources" />
+      <recent name="C:\Users\kompland\Desktop\JAVA\projects\workshop8_tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kompland\Desktop\JAVA\projects\workshop13\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.tests" />
+      <recent name="org.annotations.configuration" />
+      <recent name="org.annotations.code" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.UserManagementServiceTest">
+    <configuration name="UserManagementServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.zadanie.UserManagementServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserManagementServiceTest.shouldFailWhenAddingUsersToRepositoryFails" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.zadanie.UserManagementServiceTest.shouldFailWhenAddingUsersToRepositoryFails&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserManagementServiceTest.shouldFailWhenDuplicatedUserIsCreated" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.zadanie.UserManagementServiceTest.shouldFailWhenDuplicatedUserIsCreated&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserManagementServiceTest.shouldFindUsersWithName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.zadanie.UserManagementServiceTest.shouldFindUsersWithName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserManagementServiceTest.shouldModifyUserDataCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.zadanie.UserManagementServiceTest.shouldModifyUserDataCorrectly&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.UserManagementServiceTest" />
+        <item itemvalue="Gradle.UserManagementServiceTest.shouldModifyUserDataCorrectly" />
+        <item itemvalue="Gradle.UserManagementServiceTest.shouldFindUsersWithName" />
+        <item itemvalue="Gradle.UserManagementServiceTest.shouldFailWhenAddingUsersToRepositoryFails" />
+        <item itemvalue="Gradle.UserManagementServiceTest.shouldFailWhenDuplicatedUserIsCreated" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

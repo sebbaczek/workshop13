@@ -1,2 +1,4 @@
-package org.annotations.code;public interface Marker {
+package org.annotations.code;
+
+public interface Marker {
 }

@@ -1,2 +1,4 @@
-package org.example;public class AnotherInjectedBean {
+package org.example;
+
+public class AnotherInjectedBean {
 }

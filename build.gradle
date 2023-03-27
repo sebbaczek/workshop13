@@ -2,18 +2,61 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group = 'org.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '18'
 
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+ext {
+    springVersion = '6.0.6'
+    lombokVersion = '1.18.26'
+    junitVersion = '5.9.2'
+    mockitoVersion = '5.2.0'
 }
+dependencies {
+
+//    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.5'
+    //slf4j-simple domyślnie nie loguje poziomu poniżej info, slf4j-simple zastępuje np. logbacka;
+//    konfiguracja w simplelogger.properties
+//    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.5'
+    //logback-classic dodaje też slf4j
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.4.5'
+
+    implementation "org.springframework:spring-core:$springVersion"
+    implementation "org.springframework:spring-beans:$springVersion"
+    implementation "org.springframework:spring-context:$springVersion"
+    implementation "org.springframework:spring-context-support:$springVersion"
+    implementation "org.springframework:spring-expression:$springVersion"
+
+    compileOnly "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor "org.projectlombok:lombok:$lombokVersion"
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter:$junitVersion"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-params:$junitVersion"
+
+    testImplementation "org.mockito:mockito-junit-jupiter:$mockitoVersion"
+    testImplementation "org.mockito:mockito-inline:$mockitoVersion"
+
+    testImplementation "org.springframework:spring-test:$springVersion"
+
+    testCompileOnly "org.projectlombok:lombok:$lombokVersion"
+    testAnnotationProcessor "org.projectlombok:lombok:$lombokVersion"
+
+
+}
+
+
 
 test {
     useJUnitPlatform()
+    testLogging {
+        events "passed","skipped","failed"
+    }
 }
+
+compileJava.options.encoding = 'UTF-8'
