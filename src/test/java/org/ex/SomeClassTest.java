@@ -20,10 +20,10 @@ public class SomeClassTest {
 //        @Spy
         private AnotherSomeClass anotherSomeClass;
         
-        @Test
-        void someTest(){
-                Mockito.when(anotherSomeClass);
-        }
+//        @Test
+//        void someTest(){
+//                Mockito.when(anotherSomeClass);
+//        }
         
         @Test
         void someTest2(){

@@ -21,11 +21,15 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringJUnitConfig(classes = {CalculatorConfiguration.class})
 public class MortgageCalculationServiceIT {
 
+    
+    //test integracyjny z danymi testowymi z pliku
     private static final Path RESULT_FILE_PATH = Paths.get("build/generated/calculationResult.txt");
+   
+    //plik z resources
     private static final String EXPECTED_GENERATED_CONTENT = "classpath:expectedGeneratedResult.txt";
 
     @Autowired
-    @SuppressWarnings("unused")
+ 
     private MortgageCalculationService mortgageCalculationService;
 
     @BeforeEach

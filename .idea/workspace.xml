@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="zadania z testów">
+    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="mortgage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ex/SomeClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ex/SomeClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/InstallmentCalculationServiceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/InstallmentCalculationServiceIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/MortgageCalculationServiceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/MortgageCalculationServiceIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tests/ExampleBeanServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tests/ExampleBeanServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +34,22 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="workshop14" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="workshop14" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="workshop14" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="workshop14" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -96,7 +117,7 @@
       <recent name="org.annotations.code" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.kalkulatorHipo.MortgageCalculatorApplication">
+  <component name="RunManager" selected="Gradle.workshop14_tests [clean]">
     <configuration name="MortgageCalculatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.zajavka.mortgage.MortgageCalculatorApplication" />
       <module name="workshop14.main" />
@@ -123,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserManagementServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TimePointCalculationServiceImplTest.calculateTimePointForOtherInstallments" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.zadanie.UserManagementServiceTest&quot;" />
+            <option value="&quot;org.kalkulatorHipo.services.TimePointCalculationServiceImplTest.calculateTimePointForOtherInstallments&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -146,59 +167,55 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserManagementServiceTest.shouldFindUsersWithName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="workshop14_tests [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.zadanie.UserManagementServiceTest.shouldFindUsersWithName&quot;" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserManagementServiceTest.shouldModifyUserDataCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="workshop14_tests [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.zadanie.UserManagementServiceTest.shouldModifyUserDataCorrectly&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.workshop14_tests [clean]" />
+        <item itemvalue="Gradle.workshop14_tests [build]" />
+        <item itemvalue="Gradle.TimePointCalculationServiceImplTest.calculateTimePointForOtherInstallments" />
         <item itemvalue="Application.org.kalkulatorHipo.MortgageCalculatorApplication" />
         <item itemvalue="Application.MortgageCalculatorApplication" />
-        <item itemvalue="Gradle.UserManagementServiceTest" />
-        <item itemvalue="Gradle.UserManagementServiceTest.shouldModifyUserDataCorrectly" />
-        <item itemvalue="Gradle.UserManagementServiceTest.shouldFindUsersWithName" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679917649856</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mortgage">
+      <created>1679946616664</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679946616664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +258,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zadania z testów" />
-    <option name="LAST_COMMIT_MESSAGE" value="zadania z testów" />
+    <MESSAGE value="mortgage" />
+    <option name="LAST_COMMIT_MESSAGE" value="mortgage" />
   </component>
 </project>

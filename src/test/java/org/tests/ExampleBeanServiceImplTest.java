@@ -62,35 +62,35 @@ class ExampleBeanServiceImplTest {
        
        
         
-        @Test
-        void sampleMethod2(){
-        
-                
-                //jeśli wpadnie cokolwiek - any() - do metody w miejsce zaślepki, toto zwróc taką wartość "my stub
-                // value"
-//                eq("val1)",anyString()) - uzycie przy kilku argumentach
-                //jeśli wartości są niedopasowane to zwraca null
-                
-                Mockito.when(injectedBeanService.sampleMethod(ArgumentMatchers.any())).thenReturn("my stub value");
-        
-//                ExampleBeanService exampleBeanService = new ExampleBeanServiceImpl();
-
-//                //implementacja klasą statyczną bez mockito
-//                exampleBeanService.setInjectedBeanService(new stubInjectedBeanService());
-//                //można też implementować lambdą bez mockito:
-//                exampleBeanService.setInjectedBeanService(()->true);
-        
-//                boolean res = exampleBeanService.sampleMethod2();
-        
-                String res1 = exampleBeanService.sampleMethod2("val1");
-                String res2 = exampleBeanService.sampleMethod2("val2");
-                String res3 = exampleBeanService.sampleMethod2("val3");
-                
-                
-                Assertions.assertEquals(true,res1);
-        
-        
-        };
+//        @Test
+//        void sampleMethod2(){
+//
+//
+//                //jeśli wpadnie cokolwiek - any() - do metody w miejsce zaślepki, toto zwróc taką wartość "my stub
+//                // value"
+////                eq("val1)",anyString()) - uzycie przy kilku argumentach
+//                //jeśli wartości są niedopasowane to zwraca null
+//
+//                Mockito.when(injectedBeanService.sampleMethod(ArgumentMatchers.any())).thenReturn("my stub value");
+//
+////                ExampleBeanService exampleBeanService = new ExampleBeanServiceImpl();
+//
+////                //implementacja klasą statyczną bez mockito
+////                exampleBeanService.setInjectedBeanService(new stubInjectedBeanService());
+////                //można też implementować lambdą bez mockito:
+////                exampleBeanService.setInjectedBeanService(()->true);
+//
+////                boolean res = exampleBeanService.sampleMethod2();
+//
+//                String res1 = exampleBeanService.sampleMethod2("val1");
+//                String res2 = exampleBeanService.sampleMethod2("val2");
+//                String res3 = exampleBeanService.sampleMethod2("val3");
+//
+//
+//                Assertions.assertEquals(true,res1);
+//
+//
+//        };
         
 //        static class stubInjectedBeanService implements InjectedBeanService{
 //

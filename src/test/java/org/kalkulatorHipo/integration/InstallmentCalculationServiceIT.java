@@ -15,7 +15,7 @@ import static org.kalkulatorHipo.fixtures.TestDataFixtures.*;
 public class InstallmentCalculationServiceIT {
 
     @Autowired
-    @SuppressWarnings("unused")
+    @SuppressWarnings("unused") //ostrzeżenie które nie pojawia się w wersji commercial IJ
     private InstallmentCalculationService installmentCalculationService;
 
     @BeforeEach
