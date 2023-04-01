@@ -30,17 +30,15 @@ class ResidualCalculationServiceImplTest {
         void calculate() {
                 final var inputData = TestDataFixtures.someInputData();
                 final var inputData2 = TestDataFixtures.someInputData().withAmount(BigDecimal.ZERO);
+               
                 final var expected = TestDataFixtures.someMortgageResidual().withResidualAmount(BigDecimal.valueOf(
                         196239.21)).withResidualDuration(BigDecimal.valueOf(178));
                 final var expected2 =
                         TestDataFixtures.someMortgageResidual().withResidualAmount(BigDecimal.ZERO).withResidualDuration(BigDecimal.ZERO);
+               
                 final var overpayment = TestDataFixtures.someOverpayment();
+                
                 final var installmentAmounts = TestDataFixtures.someInstallmentAmounts().withOverpayment(overpayment);
-//                when(residualCalculationService.calculate(any(InstallmentAmounts.class), inputData))
-//                        .thenReturn(new MortgageResidual(BigDecimal.ZERO,BigDecimal.ZERO));
-//                when(residualCalculationService.calculate(TestDataFixtures.someInstallmentAmounts().withOverpayment(TestDataFixtures.someOverpayment()), inputData))
-//                        .thenReturn(new MortgageResidual(any(BigDecimal.class),any(BigDecimal.class)));
-        
 
         
                 // when

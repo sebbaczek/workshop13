@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="mortgage">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/services/AmountsCalculationServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/services/ResidualCalculationServiceImplTest.java" afterDir="false" />
+    <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="moje_testy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/services/ResidualCalculationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/services/ResidualCalculationServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680006226406</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="moje_testy">
+      <created>1680343984597</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343984598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +291,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zadania z testów" />
     <MESSAGE value="mortgage" />
-    <option name="LAST_COMMIT_MESSAGE" value="mortgage" />
+    <MESSAGE value="moje_testy" />
+    <option name="LAST_COMMIT_MESSAGE" value="moje_testy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/workshop14$ResidualCalculationServiceImplTest_calculate.ic" NAME="ResidualCalculationServiceImplTest.calculate Coverage Results" MODIFIED="1680341636342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
