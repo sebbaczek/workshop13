@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a8f11c-f395-4ecc-9efd-e0d0cb1435e3" name="Changes" comment="mortgage">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/services/AmountsCalculationServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/services/ResidualCalculationServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ex/SomeClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ex/SomeClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/InstallmentCalculationServiceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/InstallmentCalculationServiceIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/MortgageCalculationServiceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/kalkulatorHipo/integration/MortgageCalculationServiceIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/tests/ExampleBeanServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tests/ExampleBeanServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +59,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -88,7 +85,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/kompland/Desktop/JAVA/projects/workshop13/src/main/java/org/annotations/code"
+    "last_opened_file_path": "C:/Users/kompland/Desktop/JAVA/projects/workshop13/src/main/java/org/annotations/code",
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -109,6 +107,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.kalkulatorHipo.services" />
       <recent name="org.tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -117,34 +116,8 @@
       <recent name="org.annotations.code" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.workshop14_tests [clean]">
-    <configuration name="MortgageCalculatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.zajavka.mortgage.MortgageCalculatorApplication" />
-      <module name="workshop14.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.zajavka.mortgage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.kalkulatorHipo.MortgageCalculatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.kalkulatorHipo.MortgageCalculatorApplication" />
-      <module name="workshop14.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.kalkulatorHipo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimePointCalculationServiceImplTest.calculateTimePointForOtherInstallments" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.workshop14_tests [build]">
+    <configuration name="MortgageCalculationServiceIT.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,7 +130,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.kalkulatorHipo.services.TimePointCalculationServiceImplTest.calculateTimePointForOtherInstallments&quot;" />
+            <option value="&quot;org.kalkulatorHipo.integration.MortgageCalculationServiceIT.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ResidualCalculationServiceImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.kalkulatorHipo.services.ResidualCalculationServiceImplTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ResidualCalculationServiceImplTest.calculate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.kalkulatorHipo.services.ResidualCalculationServiceImplTest.calculate&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -211,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.workshop14_tests [clean]" />
         <item itemvalue="Gradle.workshop14_tests [build]" />
-        <item itemvalue="Gradle.TimePointCalculationServiceImplTest.calculateTimePointForOtherInstallments" />
-        <item itemvalue="Application.org.kalkulatorHipo.MortgageCalculatorApplication" />
-        <item itemvalue="Application.MortgageCalculatorApplication" />
+        <item itemvalue="Gradle.workshop14_tests [clean]" />
+        <item itemvalue="Gradle.ResidualCalculationServiceImplTest.calculate" />
+        <item itemvalue="Gradle.ResidualCalculationServiceImplTest" />
+        <item itemvalue="Gradle.MortgageCalculationServiceIT.test" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679946616664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mortgage">
+      <created>1680006226406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680006226406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,5 +286,8 @@
     <MESSAGE value="zadania z testów" />
     <MESSAGE value="mortgage" />
     <option name="LAST_COMMIT_MESSAGE" value="mortgage" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/workshop14$ResidualCalculationServiceImplTest_calculate.ic" NAME="ResidualCalculationServiceImplTest.calculate Coverage Results" MODIFIED="1680341636342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
